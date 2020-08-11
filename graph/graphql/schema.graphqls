@@ -1,0 +1,8 @@
+type Query {
+    getFiles: [File!]!
+}
+
+type Mutation {
+    multipleUpload(req: [UploadFile!]!): [File!]!
+}
+
